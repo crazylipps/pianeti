@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-size: 0;
+    
+}
+div{
+    font-size: 16px;
+}
+.card-container{ /* se scrivo div.card-container è la stessa cosa ma non ci deve essere spazio, una cosa vede essere*/
+    border: 12px ridge salmon;
+   
+    width: calc(25% - 20px);
+    display: inline-block;
+    margin: 10px;
+
+
+}
+h2{
+    background-color: aqua;
+    margin: 0;
+    padding: 4px;
+}
+.card-body{
+    background-color: yellowgreen;
+    padding: 4px;
+    font-size: 20px;
+    border-top: 4px solid springgreen;
+    border-bottom: 4px solid springgreen;
+
+}
+.card-footer{
+    font-size: 32px;
+    background-color: blueviolet;
+    padding: 4px;
+    color: aliceblue;
+}

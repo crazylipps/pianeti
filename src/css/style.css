@@ -1,0 +1,9 @@
+/* struttura di una regola css
+
+selettore{
+    proprietàCss1:valoreCss1;
+    proprietàCss2:valoreCss2;
+} */
+ body{
+    background-color: aqua;
+ }

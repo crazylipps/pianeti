@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+p{
+    background-color: red;
+    /* di default paragrafo ha 16 px di margine sopra e sotto */
+    margin: 40px;
+    text-indent: 20px;
+    /* dare un bordo al paragrafo fai la stessa cosa del bordo. il paragrafo non è un blocco, non ci si mette un div per intenderci */
+    /* border: 20px solid green; */
+    /* la differenza tra bordo e outline è che outline non ha un ingombro quindi va in overflow */
+    /* se faccio outline e margine apparo. serve a fare un doppio bordo */
+}
+div{
+    background-color: yellow;
+    /* padding: 30px; */
+    
+    /* non si vede bgcolor perché figlio si prende sempre spazio, sono sovrapposti */
+}
+span{
+    background-color: aqua;
+    /* lo span ha larghezza del contenuto perchè è inline */
+    /*è utile per formattare un pezzo di testo da un testo all'altro*/
+    /*di base di affianca, se metti display block va a capo, se si mette inline-block si può affiancare e dargli caratteristiche di block*/
+}

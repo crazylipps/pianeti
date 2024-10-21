@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    /* il margine viene comunque aggiunto anche con box-sizing border box */
+    border: none;
+}
+
+div{
+    background-color:mediumvioletred;
+    padding: 30px;
+    border-width: 5px;
+    border-color: powderblue;
+    border-style: solid; /*il bordo non ha percentuale*/
+    /* border-top-width: 10px;
+    border-top-color: salmon;
+    border-top-style: dashed; */
+    border-top: 12px salmon dashed;
+    border: none;
+
+    
+    
+}
+div + div{
+    width: 300px;
+    background-color: yellowgreen;
+    margin: 10px auto;
+    
+
+
+    /* nelle percentuali c'è sempre l'elemento genitore che fa da padrone 
+    non dimentichiamo auto
+    */
+
+}
+.box{
+    background-color: lawngreen;
+    width: 500px;
+    padding: 50px;
+}
+/*box sizing, se do 50px a un box di 500px questo diventa 600px*/

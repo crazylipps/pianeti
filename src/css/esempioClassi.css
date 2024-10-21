@@ -1,0 +1,8 @@
+.errore{
+    background-color: rgb(183, 27, 27);
+    padding: 10px;
+    color: aliceblue;
+}
+ small.errore{
+    font-size: 44px;
+ }

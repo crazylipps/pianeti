@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'miss_fajardoseregular';
+    src: url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.eot');
+    src: url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.woff') format('woff'),
+         url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/miss_fajardose/missfajardose-regular-webfont.svg#miss_fajardoseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-size: 24px;
+}
+
+
+p{
+    font-family: 'miss_fajardoseregular';
+}
+div{
+    font-family: Papyrus, fantasy;
+    width: 50%;
+}
+span{
+    font-size: 36px;
+    font-style: italic;
+}

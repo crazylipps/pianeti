@@ -1,0 +1,130 @@
+/* eb-garamond-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+  }
+  /* eb-garamond-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-italic.svg#EBGaramond') format('svg'); /* Legacy iOS */
+  }
+  /* eb-garamond-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800.svg#EBGaramond') format('svg'); /* Legacy iOS */
+  }
+  /* eb-garamond-800italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'EB Garamond';
+    font-style: italic;
+    font-weight: 800;
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.eot'); /* IE9 Compat Modes */
+    src: url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../../assets/fonts/eb-garamond/eb-garamond-v30-latin-800italic.svg#EBGaramond') format('svg'); /* Legacy iOS */
+  }
+
+/* CSS HEX */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    --black: #000000ff;
+    --oxford-blue: #14213dff;
+    --orange-web: #fca311ff;
+    --platinum: #e5e5e5ff;
+    --white: #ffffffff;
+    font-family: 'EB Garamond';
+
+}
+body{
+    background-color: var(--platinum);
+}
+header{
+    background-color: var(--oxford-blue);
+    color: var(--orange-web);
+    text-shadow: 1px 1px var(--white);
+    text-align: center;
+    padding: 20px 0px 80px 0px;
+    
+}
+main section{
+    border: 2px solid var(--oxford-blue);
+    background-color: var(--orange-web);
+    color: var(--oxford-blue);
+    margin:20px;
+    padding: 20px;
+
+}
+main h2{
+    text-align: center;
+}
+main p{
+    padding: 12px;
+}
+.bold{
+    font-weight: 800;
+}
+ ul{
+    list-style-image: url(../../assets/img/pianeta.png);
+    padding-left: 80px;
+} 
+.card-container{
+    display: inline-block;
+    border: 1px solid var(--black);
+    width: calc(33% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+.card-title{
+    font-size: 24px;
+    padding: 12px;
+    border-bottom: 1px solid var(--black);
+}
+.card-corpus{
+    border-bottom: 1px solid var(--black);
+    text-align: left;
+
+}
+footer{
+    background-color: var(--orange-web);
+    color: var(--black);
+    padding: 20px;
+}
+footer>*{
+    font-size: 16px;
+}
+footer a{
+    font-style: italic;
+    display: block;
+}

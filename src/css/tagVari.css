@@ -1,0 +1,26 @@
+span{
+    font-weight: bold;
+}
+mark{
+    background-color: khaki;
+}
+cite{
+    background-color: aquamarine;
+}
+kbd{
+    background-color: lightgray;
+    color: #333;
+    border: 1px solid black;
+    padding: 3px;
+}
+.vert{
+  
+    transform: rotate(270deg); /* Ruota il testo di 270 gradi */
+    transform-origin: left top;
+    position: fixed;
+    top: 100px;
+    right:100px;
+ 
+    
+ 
+}

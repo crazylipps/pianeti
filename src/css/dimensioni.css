@@ -1,0 +1,38 @@
+div{
+    color:darkcyan;
+    background-color: aqua;
+    /* in tutti gli elementi di tipo blocco posso cambiare altezza e larghezza */
+   /* width: 3000px;
+     andando in overflow parte la barra di scorrimento, orrenda */
+     max-width: 700px; /*se c'è più spazio hai da mettere se si fa più stretto ridimensioni, sotto i 700 non puoi andare sopra si
+     in pratica significa che la max width che assume è 700 pixel*/
+
+
+
+     /* MIN-WIDTH NON PUò ESSE PIù PICCOLO E SE C'è MENO SPAZIO PERò VA IN OVERFLOW, LA COSA BELLA DI MIN è CHE PUOI USARE CON WIDTH */
+     /* la percentuale si riferisce sempre al genitore, in questo modo body */
+     /* height: 120px;
+     così il testo finisce in overflow rispetto all elemento
+     raramente si fissa in pixel l'altezza */
+     height: 100%; 
+}
+div div{
+    color: black;
+    background-color: chocolate;
+}
+     /* l'altezza prende il genitore se il genitore ha un altezza assoluto
+     per esempio
+body{
+    height: 2000px
+} 
+    
+il div più interno è il 50% del suo genitore che però è il div che già a sua volta è largo il 50%*/
+.minWidth{
+    min-width: 100px;
+    width: 50%;
+    min-height: 500px;
+    background-color: violet;
+
+}
+
+
